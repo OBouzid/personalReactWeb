@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/Header'
+import Content from './components/Content';
+import Footer from './components/Footer';
+
+/*function getList() { 
+    fetch(`products.json`)
+      .then(response => response.json())
+}*/
+
+class App extends React.Component {
+
+  state = { productos: null }
+
+  componentDidMount(){
+    console.log('FETCH')
+    fetch(`products.json`).then(response => response.json()).then(json => this.setState({productos: json}))
+    console.log('INFO' + this.state.productos)
+  }
+
+  render(){
+    console.log(this.state.productos)
+    return (
+      <div className="App">
+        <Header/>
+        <Content list={this.state.productos}/>
+        <Footer/>
+      </div>
+    );
+  }
 }
 
 export default App;
