@@ -1,0 +1,14 @@
+#resumen{
+    max-width: 100vw;
+    height: calc(100vh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20vw;
+    margin-top: var(--header-height);
+    background-color: var(--init-color);
+}
+
+#resumen > div{
+    margin: 5px;
+}

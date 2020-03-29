@@ -1,0 +1,16 @@
+#content{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxes{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--rest-color);
+}

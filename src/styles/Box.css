@@ -1,0 +1,26 @@
+#box{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    max-width: 250px;
+    text-align: left;
+}
+
+#box p {
+    padding: 1rem;
+    margin: 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 5px 5px rgba(0,0,0,.2);
+    transition: width 1s, height 1s;
+}
+
+#box > p:hover{
+    transform: scale(1.2);
+}
+
+#box h3{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}

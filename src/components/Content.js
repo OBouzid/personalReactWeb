@@ -1,16 +1,19 @@
 import React from 'react';
+import Resumen from './Resumen'
 import Box from './Box';
+import '../styles/Content.css';
 
 class Content extends React.Component {
 
     render(){
-        console.log('Content')
-        console.log(this.props)
         if(this.props.list){
             return(
-                <li>
-                    {this.props.list.map(item => <Box item={item}/>)}
-                </li>
+                <div id="content">
+                    <Resumen/>
+                    <li id='boxes'>
+                        {this.props.list.map(item => <Box item={item}/>)}
+                    </li>
+                </div>
             );
         }
         return null

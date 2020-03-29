@@ -1,0 +1,109 @@
+[{
+    "id": "1",
+    "name": "Cherry",
+    "image": "images/Cherry.png",
+    "price": "$1.99",
+    "colors": ["red", "green", "blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "2",
+    "name": "Orange",
+    "image": "images/Orange.png",
+    "price": "$2.99",
+    "colors": ["green", "blue"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "3",
+    "name": "Nuts",
+    "image": "images/Nuts.png",
+    "price": "$1.00",
+    "colors": ["red"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "4",
+    "name": "Strawberry",
+    "image": "images/Strawberry.png",
+    "price": "$1.49",
+    "colors": ["blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "5",
+    "name": "Cherry",
+    "image": "images/Cherry.png",
+    "price": "$1.99",
+    "colors": ["red", "green", "blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "6",
+    "name": "Orange",
+    "image": "images/Orange.png",
+    "price": "$2.99",
+    "colors": ["green", "blue"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "7",
+    "name": "Nuts",
+    "image": "images/Nuts.png",
+    "price": "$1.00",
+    "colors": ["red"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "8",
+    "name": "Strawberry",
+    "image": "images/Strawberry.png",
+    "price": "$1.49",
+    "colors": ["blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "9",
+    "name": "Cherry",
+    "image": "images/Cherry.png",
+    "price": "$1.99",
+    "colors": ["red", "green", "blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "10",
+    "name": "Orange",
+    "image": "images/Orange.png",
+    "price": "$2.99",
+    "colors": ["green", "blue"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "11",
+    "name": "Nuts",
+    "image": "images/Nuts.png",
+    "price": "$1.00",
+    "colors": ["red"],
+    "condition": "Frozen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  },
+  {
+    "id": "12",
+    "name": "Strawberry",
+    "image": "images/Strawberry.png",
+    "price": "$1.49",
+    "colors": ["blue"],
+    "condition": "Fresh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nunc eros"
+  }
+]

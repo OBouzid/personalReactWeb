@@ -1,12 +1,13 @@
 import React from 'react';
+import '../styles/Box.css';
 
 class Header extends React.Component {
 
     render(){
         return(
-            <div class="box">
-                <h1>{this.props.item.id}</h1>
-                <p>{this.props.item.name}</p>
+            <div id="box">
+                <h3>{this.props.item.condition}</h3>
+                <p>{this.props.item.description}</p>
             </div>
         );
     }
