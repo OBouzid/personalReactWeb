@@ -1,3 +1,24 @@
+# Pruebas con React
+
+Con las bases y conocimientos basicos de JavaScript, HTML y CSS probe a utilizar este framework para desarrollo frontend.
+
+## Requisitos
+    * YARN o NPM comandos que instalan los componentes externos que usa la aplicación desarrollada que deberán ser especificados en el package.jon (similar al requeriments de python y el comando pip).
+    * NODEJS compilador local de JS.
+    
+## Creacion de proyecto react
+Podemos crear un proyecto de react base usando el comando:
+```console
+user@desktop:~$ npm install react-scripts 
+```
+Se puede añadir el flag --save para guardarlo, la primera vez tardará ya que necesita instalar todas las dependencias por primera vez en el sistema.
+
+
+## Estructura Básica
+
+En la carpeta public aparecen los recursos que seran accesibles através de peticiones HTTP al servidor en el que se despliegue. La carpeta src que contiene el codigo fuente.
+
+# REACT - AUTOREADME
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
